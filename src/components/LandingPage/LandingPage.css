@@ -1,0 +1,43 @@
+* body{
+    /* background-image: url('https://as1.ftcdn.net/v2/jpg/01/85/12/82/1000_F_185128294_ajLJQUTN1fuEXE1rTjZeOFY2eUcaiI18.jpg'); */
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+}
+.video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+/* .landingPage{
+    background-color: aquamarine;
+} */
+
+.logo{
+    display: block;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 45%;
+    top: 100px ;
+    animation-name: logotime;
+    animation-duration: 2s;
+    
+}
+
+@keyframes logotime{
+    from {top: -20px;}
+    to {top: 100px;}
+}
+
+.logoBack{
+    display: none;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 50%;
+    top: -1px;
+}

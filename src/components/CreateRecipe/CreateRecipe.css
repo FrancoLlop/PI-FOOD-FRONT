@@ -1,0 +1,116 @@
+.createRecipe{
+    display: flex;
+    flex-direction: column;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.error{
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: red;
+    margin-top: 10px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formName{
+    width: 40%;
+    margin: 25px;
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+.formImage{
+    margin: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+.formSummary{
+    margin: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+.formHealthScore{
+    margin: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+.formDishType{
+    margin: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+.DishContainer{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.containerInput{
+    background-color: rgb(255, 209, 91);
+    display: flex;
+    align-items: center;
+}
+
+.formSteps{
+    margin: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+.StepsContainer{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.formDiets{
+    margin: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+.backButton{
+        margin: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around; 
+}
+.createButton{
+    margin: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
