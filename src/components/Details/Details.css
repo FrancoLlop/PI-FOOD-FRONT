@@ -1,13 +1,19 @@
+
 .ContainerRecipe{
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
     height: auto;
+    background-image: url('https://images.pexels.com/photos/10749578/pexels-photo-10749578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
 }
 
 .RecipeDetail{
     height: 100%;
-    background-color: rgba(255, 206, 146, 0.568);
+    background-color: rgba(178, 178, 178, 0.308);
+    /* backdrop-filter: blur(0.1rem); */
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -26,6 +32,7 @@
     padding: 5px;
 }
 .Detaildiets{
+    color: white;
     margin: 15px 25px;
     height: 25px;
     display: flex;
@@ -33,18 +40,18 @@
     justify-content: space-around; 
     font-size: 1.2rem;
     align-self: flex-start;
-    background-color: #00fbff83;
+    background-color: #a31ca396;
 }
 .DetailHealthScore{
     
-    color: rgb(0, 0, 0);
+    color: white;
     /* margin: 25px;
     height: 25px; */
 
     display: flex;
     align-items: center;
     justify-content: space-around; 
-    background-color: #00fbffa6;
+    background-color: #a31ca396;
     padding: 0;
     border-radius: 0.8rem 1rem;
     font-size: 1.5rem;
@@ -53,11 +60,11 @@
     margin: 5px;
 }
 .DetailSummary{
-    color: rgb(0, 0, 0);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-around; 
-    background-color: #00fbff83;
+    background-color: rgba(55, 54, 54, 0.661);
     font-size: 1.2rem;
     padding: 0.5rem;
     margin: 10px;
@@ -65,9 +72,10 @@
     font-weight: 500;
 }
 .DetailDish{
+    color: white;
     margin: 25px;
     height: 25px;
-    background-color: #00fbff83;
+    background-color: #a31ca396;
     border-radius: 15px;
     font-weight: 500;
     font-size: 1.2rem;

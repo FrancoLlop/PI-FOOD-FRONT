@@ -4,10 +4,13 @@
     background-color:#a680698a ;
     font-weight: bolder;
     border: 1px solid rgba(0, 0, 0, 0.474);
+    
 }
 
 .pagination .currentPage{
-    background-color: rgb(88, 239, 176)
+    background-color: rgb(88, 239, 176);
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    transform: translateY(0.8px);
 }
 
 

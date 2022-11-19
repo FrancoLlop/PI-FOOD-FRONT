@@ -4,6 +4,7 @@
         display: flex;
         align-items: center;
         justify-content:space-around;   
+        background-color: rgba(5, 255, 122, 0.705);
 }
 .filterDiet{
         /* width: 6rem; */

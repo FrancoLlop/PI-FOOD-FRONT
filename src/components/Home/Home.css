@@ -27,6 +27,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around; 
+    background-color: rgba(5, 255, 122, 0.705);
+   
 }
 .create a button{
     font-size: 1.1rem;
@@ -36,11 +38,14 @@
     background-color: rgb(250, 235, 215, 0.705);
     border: 0;
     border-radius: 5px;
+    box-shadow: 5px 8px 12px rgb(0, 0, 0);
 }
 .create a  button:hover{
     background-color: rgb(88, 239, 176);
     cursor: pointer;
+    
 }
+
 .ContainerRecipes{
     display: flex;
     flex-wrap:wrap; 

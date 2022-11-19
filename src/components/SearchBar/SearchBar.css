@@ -2,6 +2,35 @@
     margin: 15px;
     height: 20%;
     display: flex;
-    align-self: flex-end;
+    align-self: center;
     justify-content: center;   
+     background-color: rgba(5, 255, 122, 0.705);
+   
 }
+ /* .searchBar{
+    margin: 5px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;   
+    
+} */
+ .submit{
+    /* font-size: 1.3rem;
+    font-weight: 500; */
+    width: 50px;
+    height:50px;
+    color: black;
+    transform: translate(50 -50);
+} 
+.search{
+    width: 30px;
+    height: 30px;
+    color: rgba(5, 255, 122, 0.705);
+}
+
+.input{
+    font-size: 1.3rem;
+    font-weight: 500;
+   background-color: rgba(250, 235, 215, 0.705);
+}  

@@ -3,10 +3,11 @@ body{
   margin: 0;
   padding: 0;
   /* background-image: url('https://i.pinimg.com/originals/61/93/19/619319e00e04d1d9016192b1a9af391f.jpg'); */
-  background-image: url('https://images4.alphacoders.com/958/958080.jpg');
+  
+  /* background-image: url('https://images.pexels.com/photos/10749578/pexels-photo-10749578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-repeat: no-repeat;
   background-size:cover;
-  background-position: center;
+  background-position: center; */
 }
 #root{
   height: 100%;
