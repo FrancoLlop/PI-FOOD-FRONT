@@ -1,3 +1,81 @@
+.error{
+    border-radius: 30px;
+    color: red;
+    margin-top: 10px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backButton{
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #404040;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition: 0.3s;
+        position: relative;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        z-index: 1;  
+}
+.backButton:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}     
+.createButton{
+    border-radius: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #404040;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;  
+}
+.createButton:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}     
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2e2e2e;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #333;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #444;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
 .createRecipe{
     display: flex;
     flex-direction: column;
@@ -7,110 +85,52 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
-}
-.error{
-    border-radius: 30px;
-    background-color: rgb(255, 255, 255);
-    color: red;
-    margin-top: 10px;
-    height: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.formName{
-    width: 40%;
-    margin: 25px;
-    height: 80px;
-    /* border: 1px solid red; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; 
-}
-.formImage{
-    margin: 25px;
-    height: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; 
-}
-.formSummary{
-    margin: 25px;
-    height: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; 
-}
-.formHealthScore{
-    margin: 25px;
-    height: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; 
-}
-.formDishType{
-    margin: 25px;
-    height: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; 
-}
-.DishContainer{
-    /* border: 1px solid blue; */
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-}
-.containerInput{
-    background-color: rgb(255, 209, 91);
-    display: flex;
-    align-items: center;
+     border: 1px solid rgba(93, 108, 91, 0.419); 
 }
 
-.formSteps{
-    margin: 25px;
-    height: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; 
-}
-.StepsContainer{
-    /* border: 1px solid blue; */
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-    justify-content: center;
-}
-.formDiets{
-    margin: 25px;
-    height: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; 
-}
-.backButton{
-        margin: 25px;
-        height: 25px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around; 
-}
-.createButton{
-    margin: 25px;
-    height: 25px;
+.addSteps{
+    border-radius: 8%;
     display: flex;
     align-items: center;
     justify-content: space-around; 
+    background-color: #404040;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;  
+}
+.addSteps:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+.addDish{
+    border-radius: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #404040;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;  
+}
+.addDish:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }

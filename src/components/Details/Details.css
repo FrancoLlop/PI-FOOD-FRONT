@@ -13,7 +13,6 @@
 .RecipeDetail{
     height: 100%;
     background-color: rgba(178, 178, 178, 0.308);
-    /* backdrop-filter: blur(0.1rem); */
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -42,12 +41,20 @@
     align-self: flex-start;
     background-color: #a31ca396;
 }
-.DetailHealthScore{
-    
+.ReadyInMinutes{
     color: white;
-    /* margin: 25px;
-    height: 25px; */
-
+    margin: 25px;
+    height: 25px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #a31ca396;
+    padding: 0;
+    border-radius: 0.8rem 1rem;
+    font-size: 1.2rem;  
+}
+.DetailHealthScore{
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-around; 
@@ -73,8 +80,8 @@
 }
 .DetailDish{
     color: white;
-    margin: 25px;
-    height: 25px;
+    margin: 5%;
+    height: 5%;
     background-color: #a31ca396;
     border-radius: 15px;
     font-weight: 500;
@@ -87,20 +94,14 @@
 
 .DetailSteps{
     background-color: rgba(185, 119, 34, 0.517);
-    /* margin: 25px; */
-    /* height: 25px; */
     padding: 1rem;
     display: flex;
     align-items: center;
-    /* justify-content: space-around;  */
     flex-direction: column;
     align-self: center;
     margin-bottom: 2rem;
-    /* margin-top: 4vh; */
 }
 .DetailSteps h5{
-
-      /* width: 100%; */
     margin-top: 0.5vh;
     width: 40vw;
 }
@@ -147,5 +148,4 @@
     background-color: #00fbff83;
     cursor: pointer;
     font-size: 1.5rem;
-    /* transform: scale(1.1); */
 }

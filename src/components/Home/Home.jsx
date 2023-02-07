@@ -56,12 +56,14 @@ useEffect(()=>{
         <>
         {pages.length > 0 ? <div className='home'>
                
-        <button id={'refresh'} type='button' onClick={(e) => handleRefresh(e)}>Refresh</button>
+        <button className='refresh' id={'refresh'} type='button' onClick={(e) => handleRefresh(e)}>Refresh</button>
         <SearchBar setPage={setPage}/>
 
         <Filters setReload={setReload} setPage={setPage}/>
 
-        <div className='create'><Link  to={'/createRecipe'}><button>Create recipe</button></Link></div>
+        <div className='createContainer'>
+            <Link  to={'/createRecipe'}><button className='create'>Create recipe</button></Link>
+        </div>
 
         <div className='Pagination'>
             <Pagination page={page} setPage={setPage} pages={pages} paginated={paginated}/>    

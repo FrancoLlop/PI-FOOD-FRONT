@@ -1,19 +1,9 @@
-
-
 .home{
     display:flex;
     justify-content: space-between;
     flex-direction: column;
     width: 100%;
 }
-/* .recipe{ */
-    /* width: 100%; */
-    /* padding: 19px;
-    height: 50vh;
-    display:inline-flex;
-    justify-content: space-around;
-    
-} */
 .Pagination{
         margin: 15px;
         height: 15px;
@@ -21,31 +11,35 @@
         align-items: center;
         justify-content: space-around;   
 }
-.create{
-    margin: 15px;
-    height: 15px;
-    display: flex;
+.createContainer{
     align-items: center;
     justify-content: space-around; 
-    background-color: rgba(5, 255, 122, 0.705);
-   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
-.create a button{
-    font-size: 1.1rem;
-    width: 10rem;
-    height: 1.5rem;
-    font-weight: 500;
-    background-color: rgb(250, 235, 215, 0.705);
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 5px 8px 12px rgb(0, 0, 0);
-}
-.create a  button:hover{
-    background-color: rgb(88, 239, 176);
+.create{
+    border-radius: 8%;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #404040;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
     cursor: pointer;
-    
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;  
 }
-
+.create:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
 .ContainerRecipes{
     display: flex;
     flex-wrap:wrap; 
@@ -53,8 +47,23 @@
     justify-content: space-evenly;
     width: 100%;
 }
-#refresh{
-    width: 8rem;
-    height: 2rem;
-    font-size: 1.3rem;
+.refresh{
+    background-color: #404040;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;  
 }
+.refresh:hover{
+transform: translateY(-4px);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}    

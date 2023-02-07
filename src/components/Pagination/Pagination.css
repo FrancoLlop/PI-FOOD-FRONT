@@ -8,7 +8,7 @@
 }
 
 .pagination .currentPage{
-    background-color: rgb(88, 239, 176);
+    background-color:#d5ffbe;
     box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
     transform: translateY(0.8px);
 }

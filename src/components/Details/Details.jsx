@@ -34,7 +34,7 @@ let recipeDet = useSelector( state => state.recipeDetail)
                 <div className='DetailHealthScore'><p>Healt-Score: {recipeDet.healthScore}</p>
             </div>
 
-            <div>
+            <div className='ReadyInMinutes'>
                 <p>ReadyInMinutes: {recipeDet.readyInMinutes}</p>
             </div>
             <div className='DetailSummary'><p>Summary: {recipeDet.summary?.replace(/<[^>]*>/g, '')}</p></div>

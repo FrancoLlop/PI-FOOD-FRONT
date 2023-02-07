@@ -4,19 +4,17 @@
         display: flex;
         align-items: center;
         justify-content:space-around;   
-        background-color: rgba(5, 255, 122, 0.705);
+        background-color: #404040;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .filterDiet{
-        /* width: 6rem; */
         border-radius: 5px;
         padding: 0.5rem;
         font-size: 1.3rem;
         font-weight: 500;
-        background-color: rgba(250, 235, 215, 0.705);
+        background-color: #404040;
 }
 .filterDietSelect{
-        /* width: 1.5rem; */
-        /* height: 100%; */
         font-weight: bolder;
         border-radius: 3px;
 }
@@ -26,14 +24,14 @@
         padding: 0.5rem;
         font-size: 1.3rem;
         font-weight: 500;
-        background-color: rgb(250, 235, 215, 0.705);
+        background-color: #404040;
 }
 .orderHealtScore{
         border-radius: 5px;
         padding: 0.5rem;
         font-size: 1.3rem;
         font-weight: 500;
-        background-color: rgb(250, 235, 215, 0.705);
+        background-color: #404040;
 }
 
 .orderAlphabetSelect{

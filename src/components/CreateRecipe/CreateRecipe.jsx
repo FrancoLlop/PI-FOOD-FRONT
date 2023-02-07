@@ -95,7 +95,7 @@ function handleSubmit(e){
 
     return(
         <div className='createRecipe'>
-            <div className='backButton'><Link to={'/home'}><button>Back</button></Link></div>
+                <Link to={'/home'}><button className='backButton'>Back</button></Link>
             <form className='Form' onSubmit={(e)=> handleSubmit(e)}>
                 <div className='formName'>
                     <div className='containerInput'>Name: <input name='name' type='text' placeholder='name...' value={recipe.name} onChange={(e) => handleOnChange(e)}/></div>
@@ -122,7 +122,7 @@ function handleSubmit(e){
                     }
                 </div>
                 <div className='formDishType'>
-                <div className='containerInput'>DishType: <input name='dish' type='text' placeholder='dish...' value={stringsAux.dish} onChange={(e) => handleOnChangeAux(e)}/><button type='button'name='dish' value={stringsAux.dish} onClick={(e) => handlePush(e)}>Add DishType</button></div>
+                <div className='containerInput'>DishType: <input name='dish' type='text' placeholder='dish...' value={stringsAux.dish} onChange={(e) => handleOnChangeAux(e)}/><button className='addDish' type='button'name='dish' value={stringsAux.dish} onClick={(e) => handlePush(e)}>Add DishType</button></div>
                 {
                         <p className='error'>{errors.dish ? errors.dish : ''}</p>
                     }
@@ -132,7 +132,7 @@ function handleSubmit(e){
                 }</ul>
                 </div>
                 <div className='formSteps'>
-                <div className='containerInput'>Steps: <input name='steps' type='text' placeholder='steps...' value={stringsAux.steps} onChange={(e) => handleOnChangeAux(e)}/><button type='button'name='steps' value={stringsAux.steps} onClick={(e) => handlePush(e)}>Add steps</button></div>
+                <div className='containerInput'>Steps: <input name='steps' type='text' placeholder='steps...' value={stringsAux.steps} onChange={(e) => handleOnChangeAux(e)}/><button className='addSteps' type='button'name='steps' value={stringsAux.steps} onClick={(e) => handlePush(e)}>Add steps</button></div>
                 {
                         <p className='error'>{errors.steps ? errors.steps : ''}</p>
                     }
@@ -144,7 +144,6 @@ function handleSubmit(e){
                 }
                 </ul>
                 <div className='formDiets'>
-                    {/* multiple size={"4"} */}
                     <select  name='diets' onChange={(e) => handlePush(e)}>
                         {diets.map((d) =>(
                             <option key={d.id} value={d.name}>{d.name}</option>
@@ -158,7 +157,7 @@ function handleSubmit(e){
                 )
                 }
                 </div>
-                <div className='createButton'>{recipe.name.length < 3 || Object.keys(errors).length > 0? <button disabled>Create Recipe!</button>: <button type={'submit'}>Create Recipe!</button>}</div>
+                    {recipe.name.length < 3 || Object.keys(errors).length > 0? <button disabled className='createButton'>Create Recipe!</button>: <button type={'submit'} className='createButton'>Create Recipe!</button>}
             </form>
         </div>
     )
