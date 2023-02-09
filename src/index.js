@@ -5,6 +5,10 @@ import App from './App';
 import store from './redux/store/store'
 import {BrowserRouter} from 'react-router-dom'
 import {Provider} from 'react-redux'
+import axios from 'axios'
+
+// axios.defaults.baseURL = 'http://localhost:3001'  
+axios.defaults.baseURL = 'https://pi-food-back-production-92ed.up.railway.app'  
 
 ReactDOM.render(
   <Provider store={store}>
