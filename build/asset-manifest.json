@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c9ba8c1.css",
+    "main.js": "/static/js/main.320f59bc.js",
+    "static/media/Video.mp4": "/static/media/Video.455d45018dbc24d76c4a.mp4",
+    "static/media/loadinglogo.gif": "/static/media/loadinglogo.39c64bba2ba3a87ee8e3.gif",
+    "static/media/foodlogo.webp": "/static/media/foodlogo.b48e5680dd65d3b8fd58.webp",
+    "index.html": "/index.html",
+    "main.2c9ba8c1.css.map": "/static/css/main.2c9ba8c1.css.map",
+    "main.320f59bc.js.map": "/static/js/main.320f59bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c9ba8c1.css",
+    "static/js/main.320f59bc.js"
+  ]
+}
