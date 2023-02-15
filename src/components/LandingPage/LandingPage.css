@@ -1,9 +1,8 @@
 * body{
-    /* background-image: url('https://as1.ftcdn.net/v2/jpg/01/85/12/82/1000_F_185128294_ajLJQUTN1fuEXE1rTjZeOFY2eUcaiI18.jpg'); */
-    /* background-repeat: no-repeat; */
     background-size: contain;
 }
-.video{
+.imageback{
+    width: 100%;
     position: fixed;
     min-width: 100%;
     min-height: 100%;
@@ -12,9 +11,7 @@
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
 }
-/* .landingPage{
-    background-color: aquamarine;
-} */
+
 
 .logo{
     display: block;
